@@ -23,7 +23,7 @@ namespace OCPSample.Controllers
         {
             //var cs = "Host=localhost;Username=postgres;Password=s$cret;Database=sampledb";
 
-            var cs = "User ID=sqlrs;Password=rd@12345;Host=172.30.231.186;Port=5432;Database=sampledb;Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;";
+            var cs = "User ID=sqlrd;Password=rd@12345;Host=172.30.231.186;Port=5432;Database=sampledb;Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;";
 
             using var con = new NpgsqlConnection(cs);
             con.Open();
